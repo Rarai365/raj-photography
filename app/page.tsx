@@ -64,9 +64,9 @@ export default function Home() {
           </Link>
         </div>
 
-        <div className="columns-1 sm:columns-2 lg:columns-3 gap-4 [&>*]:mb-4 [&>*]:break-inside-avoid">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {feature.map((p) => (
-            <PhotoCard key={p.src} photo={p} />
+            <PhotoCard key={p.src} photo={p} aspectRatio="4 / 5" />
           ))}
         </div>
       </section>

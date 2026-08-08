@@ -1,10 +1,19 @@
 import Image from 'next/image';
 import type { Photo } from '@/lib/photos';
 
-export default function PhotoCard({ photo }: { photo: Photo }) {
+export default function PhotoCard({
+  photo,
+  aspectRatio,
+}: {
+  photo: Photo;
+  aspectRatio?: string;
+}) {
   return (
     <figure className="group relative overflow-hidden bg-panel">
-      <div style={{ aspectRatio: `${photo.w} / ${photo.h}` }} className="relative w-full">
+      <div
+        style={{ aspectRatio: aspectRatio ?? `${photo.w} / ${photo.h}` }}
+        className="relative w-full"
+      >
         <Image
           src={photo.src}
           alt={photo.title}
