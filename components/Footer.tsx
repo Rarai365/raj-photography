@@ -11,10 +11,10 @@ export default function Footer() {
         </div>
 
         <div className="flex gap-8 text-xs uppercase tracking-[0.2em] text-mute">
-          <a href="mailto:hello@rajphotography.com" className="hover:text-brass transition-colors">
+          <a href="mailto:rajeshbantawarai90@gmail.com" className="hover:text-brass transition-colors">
             Email
           </a>
-          <a href="https://instagram.com" target="_blank" rel="noreferrer" className="hover:text-brass transition-colors">
+          <a href="https://www.instagram.com/immmrajesh_rai/" target="_blank" rel="noreferrer" className="hover:text-brass transition-colors">
             Instagram
           </a>
           <a href="https://www.behance.net" target="_blank" rel="noreferrer" className="hover:text-brass transition-colors">

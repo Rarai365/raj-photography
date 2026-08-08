@@ -29,10 +29,10 @@ export default function ContactPage() {
               </dt>
               <dd>
                 <a
-                  href="mailto:hello@rajphotography.com"
+                  href="mailto:rajeshbantawarai90@gmail.com"
                   className="hover:text-brass transition-colors"
                 >
-                  hello@rajphotography.com
+                  rajeshbantawarai90@gmail.com
                 </a>
               </dd>
             </div>
@@ -48,7 +48,7 @@ export default function ContactPage() {
               </dt>
               <dd className="flex gap-6 mt-1">
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/immmrajesh_rai/"
                   target="_blank"
                   rel="noreferrer"
                   className="hover:text-brass transition-colors"
